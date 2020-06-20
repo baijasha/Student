@@ -11,4 +11,8 @@ package Content;
  */
 public class TheChild extends TheParent {
     
+    public TheChild(int age) {
+        super(age);
+    }
+    
 }

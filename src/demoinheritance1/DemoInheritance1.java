@@ -21,13 +21,13 @@ public class DemoInheritance1 {
      */
     public static void main(String[] args) {
         
-        TheParent one = new TheParent();
+        TheParent one = new TheParent(3);
         System.out.println(one.printStuff());
         
-        TheChild two = new TheChild();
+        TheChild two = new TheChild(3);
         System.out.println(two.printStuff());
         
-        GrandChild three = new GrandChild();
+        GrandChild three = new GrandChild(6);
         System.out.println(three.printStuff());
         
         
