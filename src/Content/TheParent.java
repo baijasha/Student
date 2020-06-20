@@ -10,16 +10,10 @@ package Content;
  * @author bains
  */
 public class TheParent {
-    private int age;
     
     public String printStuff()
     {
         return "This is parent String";
     }
-
-    public TheParent(int age) {
-        this.age = age;
-    }
-    
     
 }

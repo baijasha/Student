@@ -11,9 +11,4 @@ package Content;
  */
 public class GrandChild extends TheChild {
     
-    public GrandChild(int age) {
-        super(age);
-    }
-    
-    
 }
